@@ -35,14 +35,3 @@ Modelo de datos inicial (a diseñar por Leonel): una `Invitation` con quién inv
 - Hacer debugging: leer logs y stack traces y entender por qué falla algo.
 
 Después de eso, la IA se usa como acelerador (boilerplate), no como reemplazo del entendimiento.
-
-## Git y cuentas
-
-- La laptop es de trabajo. La identidad **global** de git es `LeoCastillero <leonel@monarcalab.ai>` y no se toca.
-- **Este repo** usa identidad local: `EddyCastillero <leonelcastillero98@gmail.com>` (`git config --local`).
-- El remoto usa el alias SSH `github-eddy` (definido en `~/.ssh/config`, llave `~/.ssh/id_ed25519_eddy`), nunca `github.com` ni HTTPS:
-  `git@github-eddy:EddyCastillero/date-site.git`
-- Antes de hacer push, verificar el autor con `git log -1 --format='%an <%ae>'`. Debe salir Eddy, no Leo.
-- No hacer commit ni push sin que Leonel lo pida.
-- Nunca pedir, leer ni pegar llaves privadas.
-- El repo viejo `First-POS` (carpeta `~/Desktop/First-POS`) no se toca: es su primer proyecto hecho solo.
